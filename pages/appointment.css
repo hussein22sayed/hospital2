@@ -1,0 +1,52 @@
+.appointment{
+    padding: 50px 0px;
+}
+.appointment__teb .table {
+    width: 100%;
+    border-radius: 15px;
+    
+}
+
+.appointment__teb .table th{
+    padding: 18px;
+    border: 1px solid transparent;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #4a6f8a;
+    color: #fff;
+    
+}
+.appointment__teb .table td{
+border:  transparent;
+padding: 15px 0px; 
+background: #ffffff;
+font-size: 17px;
+font-weight: 600;
+color: rgb(0, 0, 0);
+margin-top: 0px;
+}
+.appointment__teb .table td:nth-child(1){
+font-size: 19px;
+}
+
+.appointment__teb .table-striped{
+    border: 1px solid transparent;
+}
+
+     
+.appointment__teb .table th {
+    background-color: #4a6f8a;
+        color: #fff;
+    }
+    .appointment__teb .table th:nth-child(8) {
+        border-top-right-radius: 10px;
+     
+    }
+    .appointment__teb .table th:nth-child(1) {
+        border-top-left-radius: 10px;
+     
+    }
+.appointment__teb .btn__app__one:hover{
+    background-color: rgb(210, 2, 2);
+    box-shadow: 0px 2px 10px rgb(210, 2, 2);
+}
