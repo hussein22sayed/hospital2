@@ -64,7 +64,7 @@ transition: all 0.5s ;
     width: 100px;
 }
 .header .navbar{
-    padding: 17px 0px;
+    padding: 13px 0px;
     
 }
 .header .navbar-nav li{
@@ -73,7 +73,7 @@ transition: all 0.5s ;
 .header .navbar-nav li a{
     color: #4a6f8a;
     transition: all 0.5s;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 500;
 }
 .header .navbar-nav li .active{
@@ -81,6 +81,9 @@ transition: all 0.5s ;
 }
 .header .navbar-nav li a:hover{
     color: #0046c0;
+}
+.navbar .navbar-brand img{
+    width: 85px;
 }
 /* ****************** */
 

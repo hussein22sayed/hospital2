@@ -1,0 +1,118 @@
+@media screen and (max-width:1024px){
+
+}
+
+
+@media screen and (max-width:992px){
+    .home {
+        height: 100vh; 
+    }
+    .home .home__img img{
+        max-width: 300px;
+    }
+    .home__img__coluction{
+        position: relative;
+        height: 180px   ;
+        right: 24%;
+        top: -21px;
+        
+    }
+    .home .home__text{
+        text-align: center;
+    }
+    .home .home__text .home__text__face h1{
+        font-size: 26px;
+        font-family:gothamseven ;
+
+
+    }
+    
+    .home .home__img img:nth-child(4){
+        bottom: -51px;
+        right: 140%;
+        max-width: 250px;
+        z-index : -1;
+        display: none;
+       
+        animation: a-eight 20s infinite linear;
+    
+    }
+    
+
+
+}
+
+@media screen and (max-width:768px){
+    .home__img__coluction{
+      
+        right: 32%;
+  
+        
+    }
+    .home .home__img img{
+        max-width: 220px;
+    }
+    .home__img__coluction{
+        position: relative;
+        height: 90px ;
+        top: -50px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .home__img__coluction {
+        position: relative;
+        height: 90px;
+        top: -60px;
+    }
+    .home .home__text .home__text__face h1{
+        font-size: 20px;
+        font-family:gothamseven ;
+
+
+    }
+    .home__heart__shape img {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .home__img__coluction {
+        position: relative;
+        height: 81px;
+        top: -50px;
+    }
+    .home .home__text .home__text__face h1{
+        font-size: 20px;
+        font-family:gothamseven ;
+
+
+    }
+    .home__img__coluction{
+      
+        right: 17%;
+  
+        
+    }
+    .home__heart__shape img {
+        width: 200px;
+    }
+    .home .home__img img:nth-child(2){
+      
+        right: 5px;
+     
+    }
+    
+
+}
+@media screen and (max-width:375px){
+    .home__heart__shape img {
+        width: 180px;
+    }
+        .home__img__coluction {
+            position: relative;
+            height: 81px;
+            top: -30px;
+        }
+}
+

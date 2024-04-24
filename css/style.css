@@ -2,7 +2,6 @@
 @import url("../layout/header.css");
 @import url("../layout/footer.css");
 @import url("../layout/navbar.css");
-@import url("../responsive/responsive.css");
 @import url("../vendore/animate.css");
 @import url("../vendore/bootstrap.min.css");
 @import url("@icon/icofont/icofont.css");
@@ -28,6 +27,7 @@
 @import url("../pages/patient record.css");
 @import url("../pages/index admin.css");
 @import url("../pages/doctor info.css");
+@import url("../responsive/responsive.css");
 
 
 
