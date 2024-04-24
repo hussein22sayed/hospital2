@@ -1,5 +1,9 @@
 @media screen and (max-width:1024px){
+    .patient .patient__text h2{
+        font-size: 30px;
+        margin-bottom: 20px;
 
+    }
 }
 
 
@@ -37,8 +41,16 @@
         animation: a-eight 20s infinite linear;
     
     }
-    
+    .patient .patient__text h2{
+        font-size: 26px;
+        margin-bottom: 20px;
 
+    }
+    
+    .patient .patient__option .patient__option__choosee {
+      
+        margin: 20px 0px;
+    }
 
 }
 
@@ -74,6 +86,15 @@
     .home__heart__shape img {
         width: 250px;
     }
+    .patient .patient__text h2{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .home__heart__shape{
+        opacity: 0;
+        visibility: hidden;
+    }
+    
 }
 
 @media screen and (max-width:425px){
@@ -107,12 +128,12 @@
 }
 @media screen and (max-width:375px){
     .home__heart__shape img {
-        width: 180px;
+        width: 170px;
     }
         .home__img__coluction {
             position: relative;
-            height: 81px;
-            top: -30px;
+            height: 160px;
+            top: 17px;
         }
 }
 
