@@ -29,7 +29,7 @@
     margin-bottom: 50px;
 }
 .doctorprofile .doctorprofile__text{
-padding: 0px 50px;
+padding: 0px 20px;
 }
 .doctorprofile .doctorprofile__text .doctorprofile__text__contact{
     margin-bottom: 50px;
@@ -113,9 +113,7 @@ background-color: #b7b2b2;
 
 
 }
-.doctorinfo__ed ul{
-    line-height: 3;
-}
+
 .doctorinfo__ed ul li{
 
     font-family:gothamfive ;
@@ -131,7 +129,7 @@ background-color: #b7b2b2;
     
 }
 .doctor__app{
-    width: 500px;
+    width: 660px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 10px 0 #ddd;
 

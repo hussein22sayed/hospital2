@@ -4,6 +4,14 @@
         margin-bottom: 20px;
 
     }
+    .table__cell .table__cell__text h2{
+        font-size: 30px;
+    }
+    .choose__doctor{
+        margin: 0px 0px ;
+        margin-bottom: 30px;
+    }
+    
 }
 
 
@@ -46,11 +54,35 @@
         margin-bottom: 20px;
 
     }
+    .table__cell .table__cell__text h2{
+        font-size: 26px;
+    }
     
     .patient .patient__option .patient__option__choosee {
       
         margin: 20px 0px;
     }
+    .doctorprofile{
+        top: 0px;
+        padding-top: 50px;
+    }
+    .doctor__app {
+        padding: 70px 20px;
+    }
+    .doctor__appimg{
+        margin-top: 25px;
+    }
+    .doctor__appimg .meet__doctor__search .meet__doctor__search__icon {
+    
+        width: 56px;
+        height: 39px;
+}
+.doctor__appimg .meet__doctor__search h3{
+    font-size: 22px;
+}
+.doctor__app .meet__doctor__search {
+    padding: 20px 0px;
+}
 
 }
 
@@ -94,7 +126,48 @@
         opacity: 0;
         visibility: hidden;
     }
-    
+    .meet__doctor__search:nth-of-type(1){
+        margin-bottom: 15px;
+    }
+    .meet-doctor{
+        margin: 0px 10px;
+        padding: 30px 12px;
+        top: 65%;
+    }
+    .meet__doctor__search i{
+        font-size: 40px;
+    }
+    .choose-doctor {
+        padding: 155px 0px;
+    }
+    .table__cell .table__cell__text h2{
+        font-size: 22px;
+    }
+    .table__cell__text__plan{
+        margin-bottom: 55px;
+    }
+    .doctorprofile .doctorprofile__text .doctorprofile__text__Working ul:nth-of-type(1) li{
+        position: static;
+
+    }
+    .doctorprofile .doctorprofile__text .doctorprofile__text__Working ul li span {
+        margin-right: 20px;
+    }
+    .doctorprofile .doctorprofile__text .doctorprofile__text__Working ul:nth-of-type(1) li::after {
+        position: static;
+    }
+    .doctorinfo {
+        padding: 50px 5px;
+    }
+    .doctorinfo__ed ul li{
+        margin-bottom: 10px;
+    }
+   
+    .doctor__appimg .meet__doctor__search {
+        bottom: -21px;
+      }
+
+   
 }
 
 @media screen and (max-width:425px){
