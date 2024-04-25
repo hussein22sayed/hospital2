@@ -83,6 +83,12 @@
 .doctor__app .meet__doctor__search {
     padding: 20px 0px;
 }
+.appointment__screen{
+    display: block;
+}
+.appointment__teb{
+    display: none;
+}
 
 }
 
@@ -101,7 +107,27 @@
         height: 90px ;
         top: -50px;
     }
-}
+    .appointment__screen .table th, .appointment__screen .table td {
+        padding: 10px 8px; 
+        font-size: 15px;
+    }
+
+    .appointment__screen .table th span, .appointment__screen .table td span {
+        display: block; 
+        font-size: 13px;
+    }
+    .btn__app__table{
+        font-size: 13px;
+        padding: 9px 10px;
+      }
+      .btn__app__table{
+      
+        margin-right: 48px;
+        width: 80px;
+    }
+    
+    }
+
 
 @media screen and (max-width:600px){
     .home__img__coluction {
@@ -167,7 +193,22 @@
         bottom: -21px;
       }
 
-   
+      .doctor__app {
+        padding: 70px 16px;
+    }
+    .table__cell__text__plan2{
+        margin-bottom: 0px;
+    }
+    .btn__app__table{
+      
+          margin-right: 0px;
+    }
+    .appointment__screen .table td span:last-child, .appointment__screen .table th span:last-child{
+        margin: 0;
+    }
+    .btn__app__table{
+        margin: 0;
+    }
 }
 
 @media screen and (max-width:425px){
@@ -196,7 +237,9 @@
         right: 5px;
      
     }
-    
+    .appointment__screen .table {
+        box-shadow: none;
+    }
 
 }
 @media screen and (max-width:375px){
@@ -208,5 +251,6 @@
             height: 160px;
             top: 17px;
         }
+
 }
 
