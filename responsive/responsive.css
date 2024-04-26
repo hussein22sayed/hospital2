@@ -11,7 +11,12 @@
         margin: 0px 0px ;
         margin-bottom: 30px;
     }
-    
+    .change__info__text h3 {
+        font-size: 22px;
+    }
+    .login .login__form h2 {
+        font-size: 30px;
+    }
 }
 
 
@@ -89,7 +94,18 @@
 .appointment__teb{
     display: none;
 }
-
+.doctor__app__img img {
+    width: 170px;
+}
+  .change__info__text h3 {
+    font-size: 20px;
+}
+.doctor-padge .table__cell {
+    justify-content: center;
+}
+.login .login__form h2 {
+    font-size: 25px;
+}
 }
 
 @media screen and (max-width:768px){
@@ -125,7 +141,13 @@
         margin-right: 48px;
         width: 80px;
     }
-    
+    .doctor__app__img img {
+        width: 140px;
+    }
+    .login .login__img img {
+        height: auto;
+        object-fit: scale-down;
+        margin-top: 40px;
     }
 
 
@@ -209,6 +231,13 @@
     .btn__app__table{
         margin: 0;
     }
+    .change__info__text h3 {
+        font-size: 18px;
+    }
+}
+.login .login__form p {
+
+    font-size: 15px;
 }
 
 @media screen and (max-width:425px){
@@ -251,6 +280,8 @@
             height: 160px;
             top: 17px;
         }
-
+        .login .login__form p:last-child a {
+            font-size: 15px;
+        }
 }
 

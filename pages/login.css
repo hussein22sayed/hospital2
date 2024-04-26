@@ -85,4 +85,6 @@ transition: all 0.5s;
 .login .login__form .btn1:hover{
     background-color: black;
 }
-
+.login .login__form {
+    padding-bottom: 50px;
+}

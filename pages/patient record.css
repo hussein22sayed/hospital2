@@ -1,3 +1,7 @@
-.patient-record .patient-record__inp input{
-
+.doctor__app__pe{
+    width: 575px;
+}
+.patient-record .doctor__apps{
+    margin-bottom: 30px;
+    margin-top: 50px;
 }
