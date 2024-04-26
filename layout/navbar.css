@@ -1,58 +1,6 @@
 .header{
     background-color: white;
 }
-.header .header__nav{
-padding-top: 15px;
-border-bottom: 1px solid rgba(212, 212, 212, 0.516);
-}
-.header .header__nav .header__list ul li{
-padding-right: 15px;
-padding-top: 5px;
-
-}
-
-.header .header__nav .header__list ul li i{
-    padding-right: 5px;
-    color: #0046c0;
-    
-}
-
-.header .header__nav .header__list ul li span{
-    color: #4a6f8a;
-    font-weight: 600;
-}
-
-.header .header__nav .header__socil ul li {
-    width: 30px;
-    height: 30px;
-    background-color: #0046c0;
-    margin-right: 10px;
-    transition: all 0.5s ;
-    
-}
-.header .header__nav .header__socil ul li:hover{
-    background-color: white;
-    border: 1px solid #0046c0;
-}
-.header .header__nav .header__socil ul li:hover a{
-    color: #0046c0;
-}
-.header .header__nav .header__socil ul li a {
-color: white;
-padding-left: 8px;
-display: inline-block;
-padding-top: 2px; 
-transition: all 0.5s ; 
-
-}
-.header .header__nav .header__socil ul li:nth-child(1) a {
-    padding-left: 10px;
- 
-}
-.header .header__nav .header__socil ul li a i{
-    font-size: 14px;
-
-}
 
 /* *********************** */
 .header .navbar {
