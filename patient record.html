@@ -49,9 +49,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Services</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Doctor</a>
-              </li>
+            
               <li class="nav-item">
                 <a class="nav-link" href="#">Blog</a>
               </li>
@@ -79,13 +77,13 @@
         <div class="table__cell">
             <div class="table__cell__text">
     
-            <h2>View Appointment</h2>
+            <h2>View Patient Record</h2>
     
     
             <div class="table__cell__text__plan table__cell__text__plan2">
                  <a href="index doctor.html"><span>Home</span></a>
                 <i class="fa-solid fa-chevron-right"></i>
-                <span>Appointment</span>
+                <span>Patient Record</span>
             </div> <!-- table__cell__text__plan -->
     
             </div> <!-- table__cell__img -->
@@ -106,11 +104,22 @@
             <div class="col-lg-6">
                 <div class="doctor__apps d-flex justify-content-center ">
                     <div class="doctor__app doctor__app__pe my-3">
-                        <h2> Book your appointment</h2>
-                        <p>We will confirm your appointment within 2 hours</p>
+                        <h2> Make a Diagnosis</h2>
                  
 
                        <div class="row">
+                        <div class="meet__doctor__search">
+                          <div class="meet__doctor__search__icon">
+                              <i class="icofont  icofont-prescription"></i>
+                          </div> <!-- meet__doctor__search__icon -->
+      
+                          <form action="#" class="meet__doctor__search__meet patient-record__inp">
+                              <label for="nameTreatment2">Date Of Examination</label>
+                              <input type="text" id="nameTreatment2" placeholder="Enter the date" name="search">
+                          </form>
+      
+      
+                      </div> <!-- meet__doctor__search -->
                   
                             <div class="meet__doctor__search">
                                 <div class="meet__doctor__search__icon">
@@ -118,8 +127,8 @@
                                 </div> <!-- meet__doctor__search__icon -->
             
                                 <form action="#" class="meet__doctor__search__meet">
-                                    <label for="nameapp">comments</label>
-                                    <textarea name="textarea" id="textarea" cols="20" rows="10" placeholder="Write your comments here"></textarea>
+                                    <label for="nameapp">Diagnosis</label>
+                                    <textarea name="textarea" id="textarea" cols="20" rows="10" placeholder="Write a Diagnosis here"></textarea>
                                 </form>
             
             
@@ -153,8 +162,8 @@
             <div class="col-lg-6">
                 <div class="doctor__apps d-flex justify-content-center ">
                     <div class="doctor__app doctor__app__pe my-3">
-                        <h2> Book your appointment</h2>
-                        <p>We will confirm your appointment within 2 hours</p>
+                        <h2> Make a Prescription</h2>
+                        
                  
 
                        <div class="row">
@@ -165,8 +174,8 @@
                                 </div> <!-- meet__doctor__search__icon -->
             
                                 <form action="#" class="meet__doctor__search__meet patient-record__inp">
-                                    <label for="nameTreatment">Description</label>
-                                    <input type="text" id="nameTreatment" placeholder="Enter Your Name treatment" name="search">
+                                    <label for="nameTreatment">Name of medicine</label>
+                                    <input type="text" id="nameTreatment" placeholder="Enter Medicine name" name="search">
                                 </form>
             
             
@@ -178,8 +187,8 @@
                                 </div> <!-- meet__doctor__search__icon -->
             
                                 <form action="#" class="meet__doctor__search__meet patient-record__inp">
-                                    <label for="nameTreatment2">Description</label>
-                                    <input type="text" id="nameTreatment2" placeholder="Enter Your Name treatment" name="search">
+                                    <label for="nameTreatment2">Name of medicine</label>
+                                    <input type="text" id="nameTreatment2" placeholder="Enter Medicine name" name="search">
                                 </form>
             
             
@@ -191,8 +200,8 @@
                                 </div> <!-- meet__doctor__search__icon -->
             
                                 <form action="#" class="meet__doctor__search__meet patient-record__inp">
-                                    <label for="nameTreatment3">Description</label>
-                                    <input type="text" id="nameTreatment3" placeholder="Enter Your Name treatment" name="search">
+                                    <label for="nameTreatment3">Name of medicine</label>
+                                    <input type="text" id="nameTreatment3" placeholder="Enter Medicine name" name="search">
                                 </form>
             
             
@@ -408,8 +417,8 @@
     </section> <!-- appointment -->
        
        
-       <!-- start footer -->
-         <footer class="footerbig">
+          <!-- start footer -->
+          <footer class="footerbig">
             <div class="footer">
               <div class="container">
                 <div class="row">
@@ -434,8 +443,8 @@
                         <li>
                           <i class="fa-solid fa-location-dot"></i>
                      <p >
-                      210-27 Quadra, Market Street,
-                      <br> Victoria Canada
+                      15 6'october, Hosary Street,
+                      <br> cairo egypt
                      </p>
                     </li>
                       </ul>
@@ -470,39 +479,17 @@
                       </ul>
                     </div> <!-- footer__list -->
                   </div>
-        
-                  <div class="col-lg-3 col-sm-6">
-                    <div class="footer__list">
-                      <h2>Feedback</h2>
-                      <form action="" class="footer__form">
-                        <ul>
-                          <li> 
-                            <input type="text" name="textfooter" id="textfooter" placeholder="Name">
-                          </li>
-                          <li>
-                            <input type="text" name="textnumber" id="textnumber" placeholder="Phone">
-                          </li>
-                          <li>
-                            <textarea name="textarea" id="textarea" cols="20" rows="10" placeholder="Massage"></textarea>
-                          </li>
-                          <li>
-                            <button type="submit" id="btn1">submit</button>
-                          </li>
-                        </ul>
-                        
-      
-                      </form>
-             
-                    </div> <!-- footer__list -->
+<div class="col-lg-3 col-sm-6">
+                    
                   </div>
+        
+                
         
                 </div> <!-- row -->
               </div> <!-- container -->
             </div> <!-- footer -->
             
-            <div class="footertwo text-center py-2">
-              <p>Copyright @2023 Medsev. Designed By <a href=""> HiBootstrap</a></p>
-            </div>
+            
           </footer> <!-- footer -->
           <!-- end footer -->
   
